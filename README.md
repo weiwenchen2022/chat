@@ -4,7 +4,8 @@ A simple chat webapp using nhooyr.io/websocket.
 
 ```bash
 $ go run .
-listening on http://127.0.0.1:51055
+tcp listening on http://127.0.0.1:51055
+http serving on http://127.0.0.1:51056
 ```
 
 Visit the printed URL to submit and view broadcasted messages in a browser.

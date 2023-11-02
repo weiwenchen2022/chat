@@ -39,7 +39,7 @@ func run() error {
 	if err != nil {
 		return err
 	}
-	log.Printf("http serveing on http://%v", l2.Addr())
+	log.Printf("http serving on http://%v", l2.Addr())
 
 	cs := newChatServer()
 	s := &http.Server{
